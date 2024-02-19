@@ -4,7 +4,10 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "GitHub.copilot"
+                "GitHub.copilot",
+                "Emoji",
+                "Python",
+                "Pylance"
             ]
         }
     }
