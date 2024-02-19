@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"><!--acentuação-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da Página -->
+    <title>first day</title>
+</head>
+<body>
+   
+    <header>
+        <!--Titulos-->
+        <h1>Bem-vindo(a) à minha página</h1>
+        <!--Navegação-->
+        <nav>
+            <ul>
+                <!--lista não ordenada-->
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li><!--item da lista-->
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <!--Agrupar os conteúdos em seção-->
+        <section id="home">
+            <h2>Introdução</h2>
+            <!--Paragrafo-->
+            <p>Este é o conteúdo da seção inicial</p>
+        </section>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Este é o conteúdo da seção "Sobre".</p>
+        </section>
+        <section id="Contato">
+            <h2>Entre em contato</h2>
+            <p>contato</p>
+        </section>
+    </main>
+
+    <footer>
+        <!--rodape-->
+        <p>Copyright  2024 Giovane Galvão</p>
+    </footer>
+    
+</body>
+</html>
