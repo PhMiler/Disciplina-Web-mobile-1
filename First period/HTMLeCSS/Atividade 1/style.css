@@ -52,7 +52,19 @@ img{
 	top: 10%; 
 
 }
-.dados{
-    margin: 1px;
+
+.formac h2{
+    text-align: justify;
 }
 
+.formac h4{
+margin: 3px;
+text-align: justify;
+}
+.experiencias{
+    text-align: justify;
+    margin: 3px;
+}
+.experiencias h3{
+   
+}
