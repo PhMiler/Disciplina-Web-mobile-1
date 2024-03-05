@@ -1,12 +1,13 @@
-body{
-background-image: url(background.png) ;
+body {
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.geral{
+
+.geral {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,10 +16,12 @@ background-image: url(background.png) ;
     height: 40%;
     text-align: center;
 }
-.geral li{
+
+.geral li {
     list-style-type: none;
 }
-.basico{
+
+.basico {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -27,44 +30,52 @@ background-image: url(background.png) ;
     width: 100%;
     height: 40%;
     text-align: center;
-    
+
 }
 
 
-.basico h4{
+.basico h4 {
     margin: 3px;
 }
 
-.info{
+.info {
     text-align: center;
     width: 30%;
     margin: 10%;
 }
 
-.nome{
+.nome {
     font-weight: bold;
 }
-img{
+
+img {
     width: 15%;
-    border-radius:100%;
-    position:absolute;
-    left: 8%; 
-	top: 10%; 
+    border-radius: 100%;
+    position: absolute;
+    left: 8%;
+    top: 10%;
 
 }
 
-.formac h2{
-    text-align: justify;
+.formac h2 {
+    text-align: center
 }
 
-.formac h4{
-margin: 3px;
-text-align: justify;
+.formac h4 {
+    margin: 3px;
+    text-align: center
 }
-.experiencias{
-    text-align: justify;
+
+.experiencias {
+    text-align: center;
     margin: 3px;
 }
-.experiencias h3{
-   
+
+.habilidades {
+    text-align: center;
+    margin: 1px;
+}
+
+.habilidades h4 {
+    margin: 2px;
 }
