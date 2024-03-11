@@ -1,44 +1,134 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.area-header{
+.area-header {
     background-color: #262318;
     padding: 15px;
-    left: 40%;
-    
+    width: 100%;
+    text-align: center;
 }
 
-.area-menu{
+.museu img {
+    position: relative;
+    top: -40px;
+    width: 80%;
+    height: auto;
+    margin-left: -8%;
+
+}
+
+.depoimento {
+    margin-left: 74%;
+    margin-top: -40.8%;
+    width: auto;
+    height: 180%;
+}
+
+.area-menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
-    
+    padding: 10px;
+    margin-right: 5%;
 }
-.area-menu a{
+
+.area-menu a {
     text-decoration: none;
     color: #A66414;
-    margin-right: 20px;
-    margin-top: -50px;
+    margin-right: 2%;
+    margin-top: -3%;
 }
 
-.area-logo, .area-menu{
-    padding: 10px;
+.area-logo img {
+    margin-right: 64%;
 }
 
-.area-main{
+.area-main {
     width: 920px;
     margin: 0 auto;
     padding: 15px;
-    
+}
+
+.visita {
+    background-color: #cdc8b1;
+    margin-top: 1%;
+    margin-left: 74%;
+    width: 38%;
+    height: 50%;
+
+}
+
+.visita h5 {
+    color: #87500c;
+    margin-left: 7%;
+}
+
+#data {
+    width: 28%;
+    height: 20%;
+}
+
+#numPessoas {
+    width: 7%;
+    height: 20%;
+}
+
+.visita data_qtd {
+    margin-left: 5%;
+}
+
+.visita button {
+    width: 200px;
+    height: 30px;
+    background-color: #9b9271;
+    border: none;
+    color: #ffff;
+    margin-left: 22%;
+    margin-bottom: 5%;
+}
+
+.galeria {
+    margin-top: 1%;
+    margin-left: 74%;
+    width: 38%;
+    height: 50%;
+    background-color: #e3dfcf;
+    position: relative;
+}
+
+.fundo {
+    width: 100%;
+    height: auto;
+}
+
+.galeria .fotos {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    width: 100%;
+    height: auto;
+    margin: 1px;
+}
+
+.galeria .fotos img {
+    display: block;
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.galeria h5 {
+    color: #87500c;
 }
 
 
@@ -53,10 +143,10 @@ body{
 
 
 
-.branco{
+.branco {
     color: #ffff;
 }
 
-.laranja{
+.laranja {
     color: #A66414;
 }
