@@ -86,7 +86,7 @@ body {
 
 .content-container h1 {
     margin-top: 1em;
-    color: #ffffff;
+    color: #00BF63;
 }
 
 .content-container img {
@@ -97,11 +97,17 @@ body {
 }
 
 .content-container p {
+    width: 66rem;
     font-size: 1.5em;
     color: #fff;
+    text-align: justify;
+    margin-left: 3rem;
+    word-wrap: break-word;
 }
 
-.content-container span {
+
+
+.content-container a {
     color: #00BF63;
     font-weight: 600;
 }
