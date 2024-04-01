@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="conteudo-1.css" media="screen">
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ForNoob - Eng. Software - Conteudo 1</title>
+    <title>ForNoob - Eng. Software</title>
+    <link rel="stylesheet" href="conteudo-1.css">
 </head>
 
 <body>
-    <!--Navbar para solicitar/avaliar e pesquisar conteudos-->
     <div class="top-container">
         <a href="#"><span>&plus;</span> Solicitar Conteúdo</a>
         <hr>
@@ -19,47 +18,42 @@
             <input type="text" placeholder="Pesquisar em Conteúdo">
         </form>
     </div>
+
     <div class="content-container">
-        <h1>Conteúdo 1</h1>
-        <br>
-        <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem explicabo quo consequatur, fugit
-            deserunt cum iste quam beatae quaerat aspernatur. Consequuntur expedita suscipit quisquam veniam et cumque
-            quo perferendis iusto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolorem quod
-            molestias. Alias autem eligendi, necessitatibus eos, distinctio cupiditate deleniti doloremque aperiam
-            voluptates laborum laudantium consequuntur. Quo officiis eaque esse. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Nostrum distinctio autem, laudantium voluptates eos amet minima sed nemo odio blanditiis
-            voluptatem voluptatum dolores. Quia aspernatur deserunt, pariatur accusantium exercitationem laboriosam?</p>
-        <br>
-        <img src="/First-period/HTMLeCSS/College_Project/Content/images/conteudo.png">
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nihil placeat voluptates, autem iusto pariatur
-            labore vel adipisci dolor sint id, corporis assumenda recusandae debitis soluta voluptas itaque aliquid
-            temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nulla eos libero, in ex culpa
-            maxime deserunt nihil, perspiciatis pariatur impedit. Impedit necessitatibus explicabo aliquid fuga, harum
-            excepturi reprehenderit at.</p>
+        <h1><span>Bem-vindo!</span> Você selecionou:</h1>
+        <img src="../Content/images/logo-engsoftware.png">
+        <p><span>Selecione</span> o <span>conteúdo</span> desejado no <span>menu</span> à <span>esquerda</span>!</p>
     </div>
-    <!--Navbar para escolher conteúdos-->
+
     <div class="leftnavbar-container">
-        <a id="home-href" href="/First-period/HTMLeCSS/College_Project/Home/index.html">🏠 Home</a>
-        <a class="subject" href="#"><span>></span> Disciplina 1</a>
-        <div class="content">
-            <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-1/conteudo-1.html">Conteudo 1</a>
-            <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-1/conteudo-2.html">Conteudo 2</a>
+        <a id="home-href" href="../Home/index.html">🏠 Home</a>
+        <div class="subject-folder">
+            <button class="toggle" id="subject-toggle-1"></button>
+            <label for="subject-toggle-1" class="subject-label">Matéria 1</label>
+            <div class="content">
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-1/conteudo-1.html">Conteúdo 1</a>
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-1/conteudo-2.html">Conteúdo 2</a>
+            </div>
         </div>
-        <a class="subject" href="#"><span>></span> Disciplina 2</a>
-        <div class="content">
-            <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-2/conteudo-1.html">Conteudo 1</a>
-            <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-2/conteudo-2.html">Conteudo 2</a>
+        <div class="subject-folder">
+            <button class="toggle" id="subject-toggle-1"></button>
+            <label for="subject-toggle-1" class="subject-label">Matéria 2</label>
+            <div class="content">
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-2/conteudo-1.html">Conteúdo 1</a>
+                <a href="//First-period/HTMLeCSS/College_Project/Content/disciplina-2/conteudo-2.html">Conteúdo 2</a>
+            </div>
         </div>
-        <a class="subject" href="#"><span>></span> Disciplina 3</a>
-        <div class="content">
-            <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-3/conteudo-1.html">Conteudo 1</a>
-            <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-3/conteudo-2.html">Conteudo 2</a>
+        <div class="subject-folder">
+            <button class="toggle" id="subject-toggle-1"></button>
+            <label for="subject-toggle-1" class="subject-label">Matéria 3</label>
+            <div class="content">
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-3/conteudo-1.html">Conteúdo 1</a>
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-3/conteudo-2.html">Conteúdo 2</a>
+            </div>
         </div>
     </div>
+
+    <script src="engSoftware.js"></script>
 </body>
-<script src="engSoftware.js"></script>
 
 </html>
