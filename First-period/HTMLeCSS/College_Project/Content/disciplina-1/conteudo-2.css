@@ -39,6 +39,7 @@ body {
     text-align: center;
     font-weight: 600;
     font-size: 14px;
+    margin-right: 1px;
 }
 
 .top-container a:hover {
@@ -71,6 +72,7 @@ body {
     font-weight: 600;
 }
 
+/*CONTAINER CONTEUDO*/
 .content-container {
     background-color: transparent;
     position: absolute;
@@ -79,28 +81,29 @@ body {
     height: 36.8em;
     right: 0;
     top: 2.7em;
-    text-align: justify;
+    text-align: center;
 }
 
 .content-container h1 {
     margin-top: 1em;
-    color: #00BF63;
-    text-align: center;
-}
-
-.content-container p {
-    color: #d0d0d0;
-    font-size: 1.2em;
-    margin-left: 4rem;
-
+    color: #ffffff;
 }
 
 .content-container img {
     background-color: #fff;
     border-radius: 2em;
-    width: 20em;
-    height: auto;
-    margin-left: 25em;
+    box-shadow: 0 0 7px rgb(0, 0, 0.15);
+    margin: 2em;
+}
+
+.content-container p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.content-container span {
+    color: #00BF63;
+    font-weight: 600;
 }
 
 /*NAVBAR ESQUERDA*/
@@ -117,8 +120,12 @@ body {
 }
 
 #home-href {
-    margin-top: 8px;
-    font-size: 16px;
+    width: 70px;
+    height: 15px;
+    padding: 8px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /*A Href Navbar*/
@@ -152,15 +159,23 @@ body {
     font-weight: 600;
 }
 
+.subject-label {
+    margin-left: 10px;
+    display: inline-block;
+}
+
 /*Materias*/
+.subject-folder,
 .subject {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
     position: relative;
     border-radius: 0.3rem;
     color: #d0d0d0;
     background-color: transparent;
     border: none;
     width: 85%;
-    height: 30px;
     padding: 8px;
     padding-left: 20px;
     text-align: left;
@@ -179,4 +194,47 @@ body {
     width: 80%;
     display: flex;
     flex-direction: column;
+    display: none;
+}
+
+.content a {
+    padding: 2px;
+}
+
+.content.show {
+    display: block;
+}
+
+.subject-folder {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.content {
+    display: none;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.subject-folder button {
+    background: none;
+    border: none;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+.subject-folder button::before {
+    content: "\25B6";
+    margin-right: 5px;
+    color: #00BF63;
+}
+
+.subject-folder.expanded button::before {
+    content: "\25BC";
 }
