@@ -112,7 +112,7 @@ body {
     border: 1px solid #5d5d5d;
     position: fixed;
     top: 2.55rem;
-    width: 14rem;
+    width: 10rem;
     height: 37rem;
     padding-left: 2px;
     display: flex;
@@ -237,4 +237,8 @@ body {
 
 .subject-folder.expanded button::before {
     content: "\25BC";
+}
+
+.leftnavbar-container label {
+    font-size: 1.20em;
 }
