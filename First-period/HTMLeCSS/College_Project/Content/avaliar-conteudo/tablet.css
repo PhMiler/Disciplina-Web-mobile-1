@@ -76,7 +76,7 @@ body {
 .content-container {
     position: absolute;
     z-index: 1;
-    width: 58em;
+    width: 18%;
     height: 44.8em;
     left: 15%;
     top: 2.7em;
@@ -149,8 +149,8 @@ input select textarea button {
 }
 
 .botao:hover {
-    background-color: #00BF63; 
-    color: #fff; 
+    background-color: #00BF63;
+    color: #fff;
 }
 
 .content-container img {

@@ -145,6 +145,12 @@ input select textarea button {
     margin-top: 1%;
     transform: translate(-50%, -50%);
     margin-left: 10%;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #00BF63; 
+    color: #fff; 
 }
 
 .content-container img {
