@@ -22,26 +22,49 @@
     </div>
 
     <div class="content-container">
-        <h1>Avaliar Conteúdo</h1>
+        <h1>Avalair Conteúdo</h1>
         <br>
         <br>
-        <div class="curso-container">
-            <label>Curso</label>
-            <select id="curso"></select>
-            <option></option>
-        </div>
-        <br>
-        <img src="/First-period/HTMLeCSS/College_Project/Content/images/conteudo.png">
-        <br>
-        <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus expedita cumque tempora officiis
-            voluptatibus architecto repellendus ullam asperiores eligendi officia eos fuga dolorum consequatur
-            incidunt autem, dignissimos accusantium totam quia. Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit. Autem sequi ex deleniti, debitis rerum, consequatur, praesentium explicabo expedita assumenda qui
-            rem quia dicta totam cumque nesciunt numquam a. Iure, animi.
+        <p>Gostaríamos muito de receber sua avaliação sobre o conteúdo presente em nosso site! Sua opinião é
+            extremamente importante para nós, pois nos ajuda a melhorar continuamente a qualidade do material oferecido.
         </p>
         <br>
-        <img src="/First-period/HTMLeCSS/College_Project/Content/images/bancodados.png">
+        <form>
+            <div class="campo">
+                <label><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label><strong>Email</strong></label>
+                <input type="email" nome="email" id="email">
+            </div>
+
+            <div class="campo">
+                <label><strong>Avaliação</strong></label>
+                <select id="avaliacao">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Excelente</option>
+                    <option>Bom</option>
+                    <option>Regular</option>
+                    <option>Ruim</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Comentário</strong></label>
+                <textarea row="6" style="width: 26em" nome="comentario" id="comentario"></textarea>
+            </div>
+
+            <a href="/First-period/HTMLeCSS/College_Project/Content/engSoftware.html">
+                <button class="botao" type="button">Enviar Avaliação</button>
+            </a>
+
+            <br>
+            <p>Agradecemos por dedicar um tempo para nos ajudar a melhorar. Estamos ansiosos para receber sua avaliação
+                e continuar aprimorando nossos serviços!</p>
+        </form>
+
     </div>
 
     <div class="leftnavbar-container">
