@@ -149,8 +149,8 @@ input select textarea button {
 }
 
 .botao:hover {
-    background-color: #00BF63; 
-    color: #fff; 
+    background-color: #00BF63;
+    color: #fff;
 }
 
 .content-container img {
@@ -184,7 +184,7 @@ input select textarea button {
     position: fixed;
     top: 2.55rem;
     width: 10rem;
-    height: 37rem;
+    height: 47rem;
     padding-left: 2px;
     display: flex;
     flex-direction: column;
