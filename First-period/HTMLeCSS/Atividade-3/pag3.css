@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header-container{
+    background-color: #294c71;
+}
+.logo{
+    text-indent: -3000px;
+    margin-left: 26%;
+}
+
+.navbar-container{
+    display: flex;
+    background-color: #b10333;
+    justify-content: center;
+    margin-left: 1;
+}
+
+.navbar-container a{
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fotos{
+    background-color: #e50040;
+}
+
+.mapa{
+    margin-left: 60%;
+}
