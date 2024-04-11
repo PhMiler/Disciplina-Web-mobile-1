@@ -153,6 +153,7 @@ hr{
 }
 
 .mundo-flex{
+    background-color: #fff;
     margin-top: 0.5em;
     display: flex;
 }
