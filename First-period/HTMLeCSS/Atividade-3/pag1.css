@@ -1,42 +1,160 @@
 *{
     margin: 0;
     padding: 0;
-}
+    color: #fff;
+    font-size: 1rem;
 
+}
+.colors{
+    background-color: #e50040
+    #b10333
+    #fff
+    #69001d
+    #de003e
+    #f5f5f5
+    #f3f3f3
+    #294c71
+    #000
+    #f9f9f9
+    #a1a1a1;
+}
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fff;
 }
-
-#container {
-    width: 750px;
-    margin: 0 auto;
+.navbartopo{
+    background:url(Image/fundo.png);
+    width: 100vw;
+    height: 35vh;
 }
-
-.header-container{
-    background-color: #294c71;
+.navLogo{
+    width: 50vw;
+    height: 21vh;
 }
 .logo{
-    text-indent: -3000px;
-    margin-left: 26%;
+    width: 14vw;
+    height: 12vh;
 }
+
+.mapa{
+    margin-left: -10%;
+    margin-top: 1%;
+}
+
 
 .navbar-container{
-    display: flex;
+    position: relative;
+    margin-top: 30px;
+    z-index: 1000;
     background-color: #b10333;
-    justify-content: center;
-    margin-left: 1;
+    width: 625px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.navbar-container a{
-    margin: 0 10px;
+.navbar-item{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
     color: #fff;
     text-decoration: none;
 }
 
-.home{
+.navbar-container a{
+    text-decoration: none;
+}
+
+.selecao{
     background-color: #e50040;
 }
 
+.navbar-item:hover{
+    color: #fff;
+    background-color: #e50040;
+}
 .mapa{
-    margin-left: 60%;
+    width: 15vw;
+    height: 20vh;
+}
+.containerPrincipal{
+    width: 100vw;
+    height:110vh ;
+    
+}
+.navbarLateral{
+    width: 20vw;
+    height: 60vh;
+    margin-top: 2vh;
+
+}
+.entrevistas{
+    background:url(Image/fundo-caixa.png);
+    width: 18vw;
+    height: 50vh;
+}
+.news{
+    background:url(Image/fundo-caixa.png);
+    width: 18vw;
+    height: 23vh;
+    margin-top: 3vh;
+
+}
+.tituloNavLateral{
+    background-color: #294c71;
+    margin-top: 1vh;
+    width: 16vw;
+    height: 7vh;
+}
+.conteudoNavLateral{
+    background-color: #ffffff;
+    margin-top: 1vh;
+    width: 16vw;
+    max-height: 42vh;
+
+}
+
+
+.conteudoPrincipal{ 
+    width: 65vw;
+    margin-bottom: 10px;
+}
+
+.cardConteudo{
+    background:url(Image/fundo-caixa.png);
+    width: 29vw;
+    min-height: 45vh;
+    padding: 0.5vw;
+    margin-top: 2vh;
+    }
+.tituloCard{
+    background-color: #294c71;
+    width: 27vw;
+    height: 6vh;
+}
+.conteudoCard{
+    background-color: #fff;
+    width: 27vw;
+}
+.mundoconteudo{
+    width: 27vw;
+    height: 100px;
+}
+.imgmundo{
+    padding: 1vh;
+    width: 8vw;
+    height: 12vh;
+}
+.textoConteudo{
+    height: 12vh;
+}
+.footerNoticias{
+    width: 100vw;
+    height: 10vh;
+    background-color: #294c71;
+    margin-top: 35vh;
+
 }

@@ -14,7 +14,7 @@ body{
 
 header{
     background-color: #294c71;
-    background-image: url(/First-period/HTMLeCSS/Atividade-3/images/fundo.png);
+    background-image: url(/image/fundo.png);
     height: 14.5rem;
     display: flex;
 }
@@ -69,7 +69,7 @@ header{
 }
 
 .background{
-    background-image: url(/First-period/HTMLeCSS/Atividade-3/images/fundo-caixa.png);
+    background-image: url(/image/fundo-caixa.png);
 }
 
 .entrevistas-container{
@@ -172,7 +172,7 @@ hr{
 }
 
 .news-container{
-    background-image: url(/First-period/HTMLeCSS/Atividade-3/images/fundo-caixa.png);
+    background-image: url(/image/fundo-caixa.png);
     position: relative;
     padding: 4px;
     width: 10em;
