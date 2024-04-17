@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"><!--acentuação-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da Página -->
+    <title>Curriculum</title>
+</head>
+<body>
+    <section class="texto_imagem">
+        <table border="1px" width="500" height="500" align="center">
+            <tr>
+                <td colspan="2" align="center">
+                    <img src="Capturar.PNG" alt="foto da pessoa" width="150" height="150">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Paulo Henrique Miler Mariano</h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h2>Auxiliar de TI e Supervisor de controladoria</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Data de Nascimento: 24/10/2005</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Contato: (42)98800-3270</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Endereço: Rua Tremembés, 145</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Bairro: Vila Carli</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>CPF: 110.349.859-22</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Cidade: Guarapuava</h3>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <header> 
+        <hr>
+    </header>
+    <main>
+        <!--Agrupar os conteúdos em seção-->
+        <section id="home">
+            <h2>Perfil profissional</h2>
+            <!--Paragrafo-->
+            <p>Supervisor de controladoria há 2 anos, atuando na empresa Super Hecel LTDA. Auxiliar de TI há 2 anos na empresa Super Hcel LTDA.
+                Proativo, experiente em atendimento ao cliente, proativo e autônomo.
+            </p>
+        </section>
+        <hr>
+        <section id="sobre">
+            <h2>Experiência Laboral</h2>
+            <p>Contribuí para o aumento significativo no valor de venda do supermercado. Há dois anos, contribuo e faço o papel de suporte TI 
+                na empresa, como vinculação de IA no botconversas, desenvolvimento do site de e-commerce da empresa Super Hecel e Materiais para Construção.
+            </p>
+            <hr>
+        </section>
+        <section id="Curriculum">
+            <h2>Acesso ao currículo</h2>
+            <li><a href="#Curriculum">Currículo</a></li><!--item da lista-->
+            <p>contato</p>
+        </section>
+    </main>
+
+    <footer>
+        <!--rodapé-->
+        <p>Copyright  2024 Giovane Galvão</p>
+    </footer>
+</body>
+</html>            

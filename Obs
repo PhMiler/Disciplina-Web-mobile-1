@@ -1,0 +1,9 @@
+rowspan: linha
+colspan: coluna
+
+href =  e nome do endereço.
+
+strong e em: negrito e italico a letra.
+
+border: espessura da borda; 
+align=".." alinhamento de texto;

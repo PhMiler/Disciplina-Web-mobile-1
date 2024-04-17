@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Noob - Eng. Soft.- Solicitar Conteúdo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <a href="/First-period/HTMLeCSS/College_Project/Content/solicitar-conteudo/index.html"><span>&plus;</span>
+            Solicitar Conteúdo</a>
+        <hr>
+        <a href="/First-period/HTMLeCSS/College_Project/Content/avaliar-conteudo/index.html"><span>&check;</span>
+            Avaliar Conteúdo</a>
+        <hr>
+        <form id="search">
+            <input type="text" placeholder="Pesquisar em Conteúdo">
+        </form>
+    </div>
+
+    <div class="content-container">
+        <h1>Solicitar Conteúdo</h1>
+        <br>
+        <br>
+        <p>Queremos tornar sua experiência de aprendizado ainda mais personalizada e completa! Se você não encontrou o
+            que estava procurando em nosso site ou se tem sugestões de novos conteúdos que gostaria de ver aqui, fique à
+            vontade para nos enviar sua solicitação.
+        </p>
+        <br>
+        <p>Basta preencher o formulário abaixo com os detalhes do conteúdo que você gostaria de ver. Faremos o possível
+            para atender sua solicitação e fornecer o conteúdo desejado em breve.
+        </p>
+        <form>
+            <div class="campo">
+                <label><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label><strong>Email</strong></label>
+                <input type="email" nome="email" id="email">
+            </div>
+
+            <div class="campo">
+                <label><strong>Curso</strong></label>
+                <select id="curso">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Engenharia de Software</option>
+                    <option>Engenharia Civil</option>
+                    <option>Engenharia Mecanica</option>
+                    <option>Engenharia Eletrica</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Título do Conteúdo</strong></label>
+                <input type="text" nome="titulo" id="titulo">
+            </div>
+
+            <div class="campo">
+                <label><strong>Descrição do Conteúdo</strong></label>
+                <textarea row="6" style="width: 26em" nome="descricao" id="descricao"></textarea>
+            </div>
+
+            <a href="/First-period/HTMLeCSS/College_Project/Content/engSoftware.html">
+                <button class="botao" type="button">Concluído</button>
+            </a>
+
+            <br>
+            <p>Agradecemos sua contribuição para melhorar nosso site e estamos ansiosos para ajudá-lo em seu processo de
+                aprendizado!</p>
+        </form>
+
+    </div>
+
+    <div class="leftnavbar-container">
+        <a id="home-href" href="/First-period/HTMLeCSS/College_Project/Home/index.html">🏠 Home</a>
+        <div class="subject-folder">
+            <button class="toggle" id="subject-toggle-1"></button>
+            <label for="subject-toggle-1" class="subject-label">Banco de Dados</label>
+            <div class="content">
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-1/conteudo-1.html">Conteúdo 1</a>
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-1/conteudo-2.html">Conteúdo 2</a>
+            </div>
+        </div>
+        <div class="subject-folder">
+            <button class="toggle" id="subject-toggle-1"></button>
+            <label for="subject-toggle-1" class="subject-label">DSWM</label>
+            <div class="content">
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-2/conteudo-1.html">Conteúdo 1</a>
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-2/conteudo-2.html">Conteúdo 2</a>
+            </div>
+        </div>
+        <div class="subject-folder">
+            <button class="toggle" id="subject-toggle-1"></button>
+            <label for="subject-toggle-1" class="subject-label">Analise e Projeto de Sistema</label>
+            <div class="content">
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-3/conteudo-1.html">Conteúdo 1</a>
+                <a href="/First-period/HTMLeCSS/College_Project/Content/disciplina-3/conteudo-2.html">Conteúdo 2</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
