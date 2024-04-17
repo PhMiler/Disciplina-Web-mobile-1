@@ -7,21 +7,56 @@
     <title>Curriculum</title>
 </head>
 <body>
-    <img src="Capturar.PNG" alt="foto da pessoa" width="150" height="150">
-    <section class = "texto_imagem">
+    <section class="texto_imagem">
         <table border="1px" width="500" height="500" align="center">
-            <h1>Paulo Henrique Miler Mariano</h1>
-            <h2>Auxiliar de TI e Supervisor de controladoria</h2>
-            <h3>Data de Nascimento: 24/10/2005</h3>
-            <h3>Contato: (42)98800-3270</h3>
-            <h3>Endereço: Rua Tremembés, 145</h3>
-            <h3>Bairro: Vila Carli</h3>
-            <h3>CPF: 110.349.859-22</h3>
-            <h3>Cidade: Guarapuava</h3>
+            <tr>
+                <td colspan="2" align="center">
+                    <img src="Capturar.PNG" alt="foto da pessoa" width="150" height="150">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Paulo Henrique Miler Mariano</h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h2>Auxiliar de TI e Supervisor de controladoria</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Data de Nascimento: 24/10/2005</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Contato: (42)98800-3270</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Endereço: Rua Tremembés, 145</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Bairro: Vila Carli</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>CPF: 110.349.859-22</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Cidade: Guarapuava</h3>
+                </td>
+            </tr>
         </table>
-        <header> 
-        
-        </section>
+    </section>
+    <header> 
         <hr>
     </header>
     <main>
@@ -29,35 +64,28 @@
         <section id="home">
             <h2>Perfil profissional</h2>
             <!--Paragrafo-->
-            <p>Supervisor de controladoria à 2 anos, atuando na empresa Super Hecel LTDA. Auxiliar de TI à 2 anos  na empresa Super Hcel LTDA.
-                Pro ativo, experiente em atendimento ao cliente, pro ativo e autonomo.
+            <p>Supervisor de controladoria há 2 anos, atuando na empresa Super Hecel LTDA. Auxiliar de TI há 2 anos na empresa Super Hcel LTDA.
+                Proativo, experiente em atendimento ao cliente, proativo e autônomo.
             </p>
         </section>
         <hr>
         <section id="sobre">
             <h2>Experiência Laboral</h2>
-            <p>Contribui para o aumento significativo, no valor de venda do supermercado, à dois anos que contribuo e faço o papel de suporte TI 
-                na empresa, como, vinculos de IA no botconversas, desenvolvimento do site de e-comerce da empresa Super Hecel e Materiais para Construção.
+            <p>Contribuí para o aumento significativo no valor de venda do supermercado. Há dois anos, contribuo e faço o papel de suporte TI 
+                na empresa, como vinculação de IA no botconversas, desenvolvimento do site de e-commerce da empresa Super Hecel e Materiais para Construção.
             </p>
             <hr>
         </section>
         <section id="Curriculum">
-            <h2>Acesso ao curriculum</h2>
-            <li><a href="#Curriculum">Curriculum</a></li><!--item da lista-->
+            <h2>Acesso ao currículo</h2>
+            <li><a href="#Curriculum">Currículo</a></li><!--item da lista-->
             <p>contato</p>
         </section>
     </main>
 
     <footer>
-        <!--rodape-->
+        <!--rodapé-->
         <p>Copyright  2024 Giovane Galvão</p>
     </footer>
-
-        <tr>
-            <td colspan="2" align="center">
-                <h4>Todos os direitos reservados</h4>
-            </td>
-            </tr>
-    
 </body>
-</html>
+</html>            
