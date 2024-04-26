@@ -1,0 +1,25 @@
+function = função
+Relacionando elementos html no código JavaScript:
+document.getElementByld("Texto")
+
+Junção HTML com JavaScript
+
+<p id = "texto" > lorem...</p>
+
+Exemplo:
+
+<html>
+    <bory.
+        <button id=""meuBotao"> Clique aqui </button>
+
+
+        <script>
+
+            const botao =
+            document.getElementByld("meuBotao")
+                botao.addEventListener('click', function(){
+                    alert('Botao Clicado')})
+                    
+ 
+        </script>
+</html>
